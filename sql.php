@@ -1,7 +1,7 @@
 <?php
 $data = file("file.txt");
 $da=file("fileo.txt");
-$length=count($da);
+$length=count($data);
 $inc=$length;
 for ($x = 0; $x < $length; $x++)
 {   
