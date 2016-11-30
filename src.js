@@ -8,7 +8,7 @@ alert("Atleast 3 letters should be required for search.");
 }
 else
 {
-url = "http://www.humanize.gq/search.php?"; 
+url = "./search.php?"; 
 url += "key=" + txt;           
 var xhr = new XMLHttpRequest();
      xhr.open("GET", url, true);
